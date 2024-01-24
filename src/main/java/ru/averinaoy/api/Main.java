@@ -6,12 +6,12 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<StudentGroup> groups1 = new ArrayList<>();
-        groups1.add(new StudentGroup("Group A"));
-        groups1.add(new StudentGroup("Group B"));
+        groups1.add(new StudentGroup("Группа 1"));
+        groups1.add(new StudentGroup("Группа 2"));
         List<StudentGroup> groups2 = new ArrayList<>();
-        groups2.add(new StudentGroup("Group C"));
-        groups2.add(new StudentGroup("Group D"));
-        groups2.add(new StudentGroup("Group E"));
+        groups2.add(new StudentGroup("Группа 3"));
+        groups2.add(new StudentGroup("Группа 4"));
+        groups2.add(new StudentGroup("Группа 5"));
 
         Stream stream1 = new Stream(groups1);
         Stream stream2 = new Stream(groups2);
